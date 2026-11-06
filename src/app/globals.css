@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+/* Mukta - Premier Marathi Typography with 100% Perfect Ligatures */
+@font-face {
+  font-family: 'Mukta';
+  src: url('/fonts/Mukta-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mukta';
+  src: url('/fonts/Mukta-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mukta';
+  src: url('/fonts/Mukta-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mukta';
+  src: url('/fonts/Mukta-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Rozha One - Royal Maratha Display Font */
+@font-face {
+  font-family: 'Rozha One';
+  src: url('/fonts/RozhaOne-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Yatra One - Traditional Signage Font */
+@font-face {
+  font-family: 'Yatra One';
+  src: url('/fonts/YatraOne-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  * {
+    font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1;
+  }
+
+  body {
+    background-color: #fcfbfa;
+    color: #1a1612;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Mukta', system-ui, -apple-system, sans-serif;
+    letter-spacing: normal;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Mukta', sans-serif;
+    letter-spacing: normal;
+  }
+}
+
+/* Calligraphic & Typography Classes */
+.font-royal {
+  font-family: 'Rozha One', 'Mukta', serif;
+  letter-spacing: 0 !important;
+}
+
+.font-mukta {
+  font-family: 'Mukta', sans-serif;
+  letter-spacing: normal !important;
+}
+
+.font-yatra {
+  font-family: 'Yatra One', 'Mukta', cursive, serif;
+  letter-spacing: normal !important;
+}
+
+/* Radiant Royal Glow Effects */
+.glow-white {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.95)) drop-shadow(0 0 25px rgba(255, 255, 255, 0.75)) drop-shadow(0 0 45px rgba(245, 158, 11, 0.5));
+}
+
+.glow-subtle {
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.8)) drop-shadow(0 0 20px rgba(217, 83, 30, 0.4));
+}
+
+.glow-gold {
+  filter: drop-shadow(0 0 12px rgba(245, 158, 11, 0.7)) drop-shadow(0 0 30px rgba(217, 83, 30, 0.45));
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1410;
+}
+::-webkit-scrollbar-thumb {
+  background: #c25e1a;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e27124;
+}

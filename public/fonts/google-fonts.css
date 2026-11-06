@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Ranga';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ranga/v22/C8cg4cYisGb28qY-AxgR.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rozha One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rozhaone/v17/AlZy_zVFtYP12Zncg2khdQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Yatra One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/yatraone/v16/C8ch4copsHzj8p7NaF0xww.ttf) format('truetype');
+}
